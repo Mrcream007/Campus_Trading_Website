@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.title h1{
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.title {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    background: #663131;
+}
+
+.title h1 span{
+    background-color: rgb(red, green, blue);
+    color: #c5b2b2;
+    border-radius: 5px;
+    padding: 0 15px;
+}

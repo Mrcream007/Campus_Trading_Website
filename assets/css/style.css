@@ -1,0 +1,214 @@
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color:white;
+  margin: 0 50px;
+  font-family: sans-serif;
+}
+
+
+#logo{
+  width: 300px;
+  
+  
+}
+
+#catimages{
+  width: 150px; 
+  height: 120px;
+  outline-offset: 2px;
+  outline-color: red;
+}
+
+#pic{
+  height: 200px;
+}
+
+#feature{
+  padding: 50px;
+  margin-left: 300px;
+
+}
+
+.heading{
+  border: 2px solid blue;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#feature2{
+margin-left: 600px;
+}
+
+#footerpic{
+width: 100px;
+
+}
+
+.leftmenu {
+  display: flex;
+  align-items: center;
+}
+
+#book {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.vl{
+  border-left: 3px solid black;
+  height: 300px;
+}
+
+.rightmenu {
+  display: flex;
+  align-items: center;
+}
+
+.rightmenu nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rightmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rightmenu li {
+  display: inline-block;
+  margin-left: 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+.rightmenu a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.search {
+  
+  height: 600px;
+  
+  position: relative;
+}
+
+.search-box {
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.search form {
+  display: flex;
+  align-items: center;
+}
+
+.search select,
+.search input[type="text"],
+.search button[type="submit"] {
+  height: 35px;
+  border: none;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.search select {
+  margin-right: 10px;
+}
+
+.search input[type="text"] {
+  width: 500px;
+  padding: 10px;
+}
+
+.search button[type="submit"] {
+  width: 80px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+footer>div>ul>li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+footer>div>ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.col-md-3 p{
+margin: 0 50px;
+padding: 10px 0px;
+font-family: 'Raleway', sans-serif;
+}
+
+.footer-div{
+justify-content: center;
+}
+
+.footer-div li{
+list-style: none;
+}
+
+.text-header{
+font-family: 'Raleway', sans-serif;
+color: white;
+transform: translate(20%,50%);
+}
+
+.text-header h1{
+font-size: 30px;
+}
+
+.text-header p{
+font-size: 12px;
+}
+
