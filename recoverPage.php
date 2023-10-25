@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
     
 <main>
-        <!--Container begins-->
+
+            <!--Container begins-->
         <div class="container">
             <h2 class="text-center mb-4"> Recovery Password</h2>
             <br>
